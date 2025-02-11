@@ -29,7 +29,7 @@ interface FormData {
   // Add properties here that reflect the shape of your form data
   [key: string]: string;
 }
-function CreateNewContent(props: PROPS) {
+function CreateNewContent() {
   const params = useParams(); // Correctly get params in a Client Component
   const templateSlug = params["template-slug"];
 
